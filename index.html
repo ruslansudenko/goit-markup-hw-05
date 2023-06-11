@@ -31,7 +31,7 @@
           </a>
           <ul class="menu list">
             <li class="menu-item">
-              <a class="menu-link link" href="./index.html">Studio</a>
+              <a class="menu-link underline link" href="./index.html">Studio</a>
             </li>
             <li class="menu-item">
               <a class="menu-link link" href="./portfolio.html">Portfolio</a>
@@ -64,7 +64,9 @@
       <section class="hero">
         <div class="container hero-container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="all-btns hero-btn" type="button">Order Service</button>
+          <button class="all-btns hero-btn" data-modal-open type="button">
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -430,7 +432,7 @@
             <li class="customers-list-item">
               <a
                 href=""
-                class="customers-list-link"
+                class="customers-list-link link"
                 target="_blank"
                 rel="no-opener no-referrer"
               >
@@ -442,7 +444,7 @@
             <li class="customers-list-item">
               <a
                 href=""
-                class="customers-list-link"
+                class="customers-list-link link"
                 target="_blank"
                 rel="no-opener no-referrer"
               >
@@ -454,7 +456,7 @@
             <li class="customers-list-item">
               <a
                 href=""
-                class="customers-list-link"
+                class="customers-list-link link"
                 target="_blank"
                 rel="no-opener no-referrer"
               >
@@ -466,7 +468,7 @@
             <li class="customers-list-item">
               <a
                 href=""
-                class="customers-list-link"
+                class="customers-list-link link"
                 target="_blank"
                 rel="no-opener no-referrer"
               >
@@ -478,7 +480,7 @@
             <li class="customers-list-item">
               <a
                 href=""
-                class="customers-list-link"
+                class="customers-list-link link"
                 target="_blank"
                 rel="no-opener no-referrer"
               >
@@ -490,7 +492,7 @@
             <li class="customers-list-item">
               <a
                 href=""
-                class="customers-list-link"
+                class="customers-list-link link"
                 target="_blank"
                 rel="no-opener no-referrer"
               >
@@ -587,5 +589,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="backdrop-window">
+        <button class="backdrop-window-cls-btn" data-modal-close type="button">
+          <svg class="icon-close" width="8" height="8">
+            <use href="./images/icons.svg#close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
