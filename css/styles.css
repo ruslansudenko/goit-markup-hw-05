@@ -493,7 +493,7 @@ img {
 
 .portfolio-link {
   display: block;
-  transition: box-shadow 250ms var(--h-focus-transition);
+  transition: box-shadow var(--h-focus-transition);
 }
 
 .portfolio-btn {
